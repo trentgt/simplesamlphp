@@ -21,17 +21,17 @@ $config = array(
      * external url, no matter where you come from (direct access or via the
      * reverse proxy).
      */
-    'baseurlpath' => 'simplesaml/',
-    'certdir' => 'cert/',
-    'loggingdir' => 'log/',
-    'datadir' => 'data/',
+    'baseurlpath' => 'http://ssphp.azurewebsites.net/simplesaml/',
+    'certdir' => 'http://ssphp.azurewebsites.net/cert/',
+    'loggingdir' => 'http://ssphp.azurewebsites.net/log/',
+    'datadir' => 'http://ssphp.azurewebsites.net/data/',
 
     /*
      * A directory where SimpleSAMLphp can save temporary files.
      *
      * SimpleSAMLphp will attempt to create this directory if it doesn't exist.
      */
-    'tempdir' => '/tmp/simplesaml',
+    'tempdir' => 'http://ssphp.azurewebsites.net//tmp/simplesaml',
 
 
     /*

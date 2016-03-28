@@ -18,11 +18,11 @@ $config = array(
 
         // The entity ID of this SP.
         // Can be NULL/unset, in which case an entity ID is generated based on the metadata URL.
-        'entityID' => null,
+        'entityID' => http://ssphp.azurewebsites.net/simplesaml,
 
         // The entity ID of the IdP this should SP should contact.
         // Can be NULL/unset, in which case the user will be shown a list of available IdPs.
-        'idp' => null,
+        'idp' => http://www.okta.com/exk62t9h2mPREor4W0h7,
 
         // The URL to the discovery service.
         // Can be NULL/unset, in which case a builtin discovery service will be used.
